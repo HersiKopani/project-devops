@@ -1,0 +1,10 @@
+<main>
+  <h1>Angular calling Spring Boot</h1>
+  @if (message) {
+    <p class="message">{{ message }}</p>
+  } @else if (error) {
+    <p class="error">{{ error }}</p>
+  } @else {
+    <p>Loading...</p>
+  }
+</main>
